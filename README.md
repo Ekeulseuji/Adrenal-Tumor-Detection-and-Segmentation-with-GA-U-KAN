@@ -13,8 +13,9 @@ Not working ah, someone please help me
 - 1.1 Convert all .DICOM stacks downloaded from NIH Cancer Imaging Archive into .NIfTI format in `../NIFTI_Files/..` for future use
 
 - 1.2 Visualize the `Adrenal_Ki67_Seg_001` CT scan sample and its segmentation result
-  
 
+
+  
 ### **2 - Data Split**
 
 - 2.1 Data preprocess, save images of the original scans and their corresponding masks in array form into `images` and `masks` 
@@ -22,6 +23,7 @@ Not working ah, someone please help me
 - 2.2 Split the porcessed data into `train_input`, `train_label`, `test_input`, and `test_label`
   
 
+  
 ### **3 - Finding the Best-performing U-KAN Model Structure**
 
 - 3.1 Define operators used to implement the genetic algorithm (GA), include `Selection`, `Crossover`, `Mutation`
@@ -33,4 +35,5 @@ Not working ah, someone please help me
 - 3.4 Use `PatchEmbed` to segment input (training/validation) images into patches and find the best U-KAN model
   
 
-### **4 - Brain Not Braining, Studying Not Studying**
+  
+### **4 - Brain Not Braining, Study Not Studying**
